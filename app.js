@@ -48,7 +48,7 @@ let generateLinkText = (url, type) => {
 };
 
 // Fetch candidates
-fetch('/candidates.json')
+fetch('./candidates.json')
     .then(response => response.json())
     .then(json => {
         candidates = json;
@@ -59,7 +59,7 @@ fetch('/candidates.json')
 
             tplEl.querySelector('.js-name').textContent = candidate.name;
             tplEl.querySelector('.js-bio').textContent = candidate.bio;
-            tplEl.querySelector('.js-image').src = `/img/${candidate.image}`;
+            tplEl.querySelector('.js-image').src = `./img/${candidate.image}`;
             tplEl.querySelector('.js-image').alt = candidate.name;
             tplEl.querySelector('.js-id').dataset.id = candidate.id;
 
