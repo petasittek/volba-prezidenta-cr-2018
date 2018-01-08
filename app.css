@@ -73,6 +73,14 @@ a:hover {
     margin: 0;
 }
 
+.c__degree {
+    color: #d0d0d0;
+}
+
+.c__highlight {
+    color: #808080;
+}
+
 .c__missing {
     color: #b0b0b0;
 }

@@ -2,7 +2,10 @@
     {
         "id": 1,
         "name": "Mirek Topolánek",
+        "degree": "Ing.",
         "bio": "61 let, Vsetín, energetik, politik, bývalý premiér",
+        "nominatedBy": "senátoři",
+        "affiliation": "bez politické příslušnosti",
         "image": "mirek-topolanek.png",
         "links": {
             "account": "https://www.csas.cz/cs/transparentni-ucty#/000000-3084338183/Ing.-Mirek-Topolanek",
@@ -22,7 +25,10 @@
     {
         "id": 2,
         "name": "Michal Horáček",
-        "bio": "65 let, Praha, podnikatel, manažer",
+        "degree": "Mgr. Ph.D.",
+        "bio": "65 let, Praha, podnikatel, spisovatel, textař, sociální antropolog",
+        "nominatedBy": "občané",
+        "affiliation": "bez politické příslušnosti",
         "image": "michal-horacek.png",
         "links": {
             "account": "https://www.csob.cz/portal/podnikatele-firmy-a-instituce/produkty/ucty-a-platebni-styk/bezne-platebni-ucty/transparentni-ucet/ucet/-/tu/279506331",
@@ -42,7 +48,10 @@
     {
         "id": 3,
         "name": "Pavel Fischer",
+        "degree": "Mgr.",
         "bio": "52 let, Praha, manažer, bývalý diplomat",
+        "nominatedBy": "senátoři",
+        "affiliation": "bez politické příslušnosti",
         "image": "pavel-fischer.png",
         "links": {
             "account": "https://www.fio.cz/ib2/transparent?a=2001304080",
@@ -62,7 +71,10 @@
     {
         "id": 4,
         "name": "Jiří Hynek",
-        "bio": "56 let, Ústí nad Labem, manažer",
+        "degree": "RNDr.",
+        "bio": "57 let, Ústí nad Labem, prezident a výkonný ředitel AOBP",
+        "nominatedBy": "poslanci",
+        "affiliation": "Realisté",
         "image": "jiri-hynek.png",
         "links": {
             "account": "https://www.csas.cz/cs/transparentni-ucty#/000000-3061372143",
@@ -82,7 +94,10 @@
     {
         "id": 5,
         "name": "Petr Hannig",
-        "bio": "71 let, Ústí nad Labem, hudebník",
+        "degree": "Mgr.",
+        "bio": "71 let, Ústí nad Labem, hudebník, producent, předseda strany",
+        "nominatedBy": "poslanci",
+        "affiliation": "Rozumní",
         "image": "petr-hannig.png",
         "links": {
             "account": "https://www.fio.cz/ib2/transparent?a=2901250217",
@@ -102,7 +117,10 @@
     {
         "id": 6,
         "name": "Vratislav Kulhánek",
-        "bio": "74 let, Plzeň, manažer",
+        "degree": "Ing. Dr. h. c.",
+        "bio": "74 let, Plzeň, manažer, podnikatel",
+        "nominatedBy": "poslanci",
+        "affiliation": "ODA",
         "image": "vratislav-kulhanek.png",
         "links": {
             "account": "https://www.fio.cz/ib2/transparent?a=2301275744",
@@ -122,7 +140,10 @@
     {
         "id": 7,
         "name": "Miloš Zeman",
-        "bio": "73 let, Kolín, ekonom, prognostik, politik; bývalý premiér, prezident",
+        "degree": "Ing.",
+        "bio": "73 let, Kolín, ekonom, politik, bývalý premiér, prezident",
+        "nominatedBy": "občané",
+        "affiliation": "Strana práv občanů",
         "image": "milos-zeman.png",
         "links": {
             "account": "https://www.fio.cz/ib2/transparent?a=2501277007",
@@ -142,7 +163,10 @@
     {
         "id": 8,
         "name": "Marek Hilšer",
-        "bio": "41 let, Chomutov, lékař, pedagog",
+        "degree": "MUDr. Bc. Ph.D.",
+        "bio": "41 let, Chomutov, lékař, vysokoškolský pedagog, vědecký pracovník",
+        "nominatedBy": "senátoři",
+        "affiliation": "bez politické příslušnosti",
         "image": "marek-hilser.png",
         "links": {
             "account": "https://www.fio.cz/ib2/transparent?a=2500932815",
@@ -162,7 +186,10 @@
     {
         "id": 9,
         "name": "Jiří Drahoš",
-        "bio": "68 let, Český Těšín, vědec - chemik, bývalý předseda Akademie věd",
+        "degree": "prof. Ing. DrSc., dr. h. c.",
+        "bio": "68 let, Český Těšín, vědec - fyzikální chemik, bývalý předseda Akademie věd",
+        "nominatedBy": "občané",
+        "affiliation": "bez politické příslušnosti",
         "image": "jiri-drahos.png",
         "links": {
             "account": "https://www.kb.cz/cs/transparentni-ucty/101421867-drahos-jiri/detail-uctu-1154337090257.shtml",

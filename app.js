@@ -58,7 +58,10 @@ fetch('./candidates.json')
             let tplEl = document.importNode(tpl.content, true);
 
             tplEl.querySelector('.js-name').textContent = candidate.name;
+            tplEl.querySelector('.js-degree').textContent = candidate.degree;
             tplEl.querySelector('.js-bio').textContent = candidate.bio;
+            tplEl.querySelector('.js-nominated-by').textContent = candidate.nominatedBy;
+            tplEl.querySelector('.js-affiliation').textContent = candidate.affiliation;
             tplEl.querySelector('.js-image').src = `./img/${candidate.image}`;
             tplEl.querySelector('.js-image').alt = candidate.name;
             tplEl.querySelector('.js-id').dataset.id = candidate.id;
