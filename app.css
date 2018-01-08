@@ -1,0 +1,62 @@
+body {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #1967d2;
+}
+
+a:visited {
+    color: #1a0dab;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1967d2;
+}
+
+.header {
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 3rem;
+}
+
+.c {
+    border-bottom: 1px solid #d0d0d0;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.c__image-wrapper {
+    position: relative;
+}
+
+.c__image-wrapper:after {
+    content: attr(data-id);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 3em;
+    font-weight: bold;
+    color: #d0d0d0;
+}
+
+.c__links {
+    margin-top: 2rem;
+}
+
+.c__name {
+    margin: 0;
+}
+
+.c__missing {
+    color: #b0b0b0;
+}

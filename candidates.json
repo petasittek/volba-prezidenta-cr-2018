@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "name": "Mirek Topolánek",
+        "bio": "61 let, Vsetín, energetik, politik, bývalý premiér",
+        "image": "mirek-topolanek.png",
+        "links": {
+            "account": "https://www.csas.cz/cs/transparentni-ucty#/000000-3084338183/Ing.-Mirek-Topolanek",
+            "ct": "http://www.ceskatelevize.cz/ct24/2339362-predvolebni-den-s-mirkem-topolankem",
+            "demagog": "https://demagog.cz/politici/260",
+            "dvtv": "",
+            "facebook": "https://www.facebook.com/MirekPrezident.cz/",
+            "instagram": "",
+            "interview24": "",
+            "prezident21": "https://www.prezident21.cz/candidates/586a6ccb8b85fa4539438cf9",
+            "twitter": "https://twitter.com/mirektopolanek",
+            "web": "https://www.mirekprezident.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Mirek_Topol%C3%A1nek",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 2,
+        "name": "Michal Horáček",
+        "bio": "65 let, Praha, podnikatel, manažer",
+        "image": "michal-horacek.png",
+        "links": {
+            "account": "https://www.csob.cz/portal/podnikatele-firmy-a-instituce/produkty/ucty-a-platebni-styk/bezne-platebni-ucty/transparentni-ucet/ucet/-/tu/279506331",
+            "ct": "http://www.ceskatelevize.cz/ct24/2334604-den-s-prezidentskym-kandidatem-michal-horacek",
+            "demagog": "https://demagog.cz/politici/423",
+            "dvtv": "",
+            "facebook": "https://www.facebook.com/mhmamenavic/",
+            "instagram": "https://www.instagram.com/mh_mamenavic/",
+            "interview24": "",
+            "prezident21": "https://www.prezident21.cz/candidates/585936aa9868db1510fb608d",
+            "twitter": "https://twitter.com/m_horacek",
+            "web": "https://www.michalhoracek.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Michal_Hor%C3%A1%C4%8Dek",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 3,
+        "name": "Pavel Fischer",
+        "bio": "52 let, Praha, manažer, bývalý diplomat",
+        "image": "pavel-fischer.png",
+        "links": {
+            "account": "https://www.fio.cz/ib2/transparent?a=2001304080",
+            "ct": "http://www.ceskatelevize.cz/ct24/2331421-den-s-prezidentskym-kandidatem-pavel-fischer",
+            "demagog": "https://demagog.cz/politici/434",
+            "dvtv": "https://video.aktualne.cz/dvtv/rada-zemanovych-volicu-hleda-alternativu-zeme-potrebuje-prez/r~e455d4a8eff111e786cf0cc47ab5f122/",
+            "facebook": "https://www.facebook.com/PavelFischerOfficial/",
+            "instagram": "https://www.instagram.com/pavelfischer2018/",
+            "interview24": "",
+            "prezident21": "https://www.prezident21.cz/candidates/585bd3a75bbe31bf1a6c8369",
+            "twitter": "https://twitter.com/PavelFischer",
+            "web": "https://www.pavelfischer.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Pavel_Fischer",
+            "youtube": "https://www.youtube.com/channel/UCMO52oFud5Cs1tBx8vc3DFg"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Jiří Hynek",
+        "bio": "56 let, Ústí nad Labem, manažer",
+        "image": "jiri-hynek.png",
+        "links": {
+            "account": "https://www.csas.cz/cs/transparentni-ucty#/000000-3061372143",
+            "ct": "http://www.ceskatelevize.cz/ct24/2337133-den-s-prezidentskym-kandidatem-jiri-hynek",
+            "demagog": "https://demagog.cz/politici/437",
+            "dvtv": "",
+            "facebook": "https://cs-cz.facebook.com/hynek2018/",
+            "instagram": "",
+            "interview24": "http://www.ceskatelevize.cz/porady/10095426857-interview-ct24/217411058041201/",
+            "prezident21": "https://www.prezident21.cz/candidates/599aa2dbfc5b134fb69211d6",
+            "twitter": "https://twitter.com/hynek2018",
+            "web": "https://hynekprezident.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_Hynek",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 5,
+        "name": "Petr Hannig",
+        "bio": "71 let, Ústí nad Labem, hudebník",
+        "image": "petr-hannig.png",
+        "links": {
+            "account": "https://www.fio.cz/ib2/transparent?a=2901250217",
+            "ct": "http://www.ceskatelevize.cz/ct24/2332447-den-s-prezidentskym-kandidatem-petr-hannig",
+            "demagog": "https://demagog.cz/politici/224",
+            "dvtv": "https://video.aktualne.cz/dvtv/antisemita-adam-b-bartos-z-tehle-etapy-uz-je-venku-praci-na/r~929e6b22f0a811e786cf0cc47ab5f122/",
+            "facebook": "https://www.facebook.com/budmehrdi/",
+            "instagram": "",
+            "interview24": "http://www.ceskatelevize.cz/porady/10095426857-interview-ct24/217411058041130/",
+            "prezident21": "https://www.prezident21.cz/candidates/586cdff1a9efdf8a29ca3ade",
+            "twitter": "https://twitter.com/petr_hannig",
+            "web": "http://www.petrhannig-rozumni.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Petr_Hannig",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 6,
+        "name": "Vratislav Kulhánek",
+        "bio": "74 let, Plzeň, manažer",
+        "image": "vratislav-kulhanek.png",
+        "links": {
+            "account": "https://www.fio.cz/ib2/transparent?a=2301275744",
+            "ct": "http://www.ceskatelevize.cz/ct24/2338162-den-s-prezidentskym-kandidatem-vratislav-kulhanek",
+            "demagog": "https://demagog.cz/politici/435",
+            "dvtv": "",
+            "facebook": "https://www.facebook.com/kulhaneknahrad/",
+            "instagram": "",
+            "interview24": "http://www.ceskatelevize.cz/porady/10095426857-interview-ct24/217411058041204/",
+            "prezident21": "https://www.prezident21.cz/candidates/5954bdba2dff3f990ab84487",
+            "twitter": "https://twitter.com/kulhaneknahrad",
+            "web": "https://www.kulhaneknahrad.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Vratislav_Kulh%C3%A1nek",
+            "youtube": ""
+        }
+    },
+    {
+        "id": 7,
+        "name": "Miloš Zeman",
+        "bio": "73 let, Kolín, ekonom, prognostik, politik; bývalý premiér, prezident",
+        "image": "milos-zeman.png",
+        "links": {
+            "account": "https://www.fio.cz/ib2/transparent?a=2501277007",
+            "ct": "",
+            "demagog": "https://demagog.cz/politici/168",
+            "dvtv": "https://video.aktualne.cz/dvtv/exkluzivni-rozhovor-s-kandidatem-na-prezidenta-milosem-zeman/r~97df9d20f23a11e7afac0cc47ab5f122/",
+            "facebook": "https://www.facebook.com/zemanznovu",
+            "instagram": "",
+            "interview24": "",
+            "prezident21": "https://www.prezident21.cz/candidates/5853f95797dd60724c529dca",
+            "twitter": "https://twitter.com/zemanznovu2018",
+            "web": "https://www.zemanznovu.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Milo%C5%A1_Zeman",
+            "youtube": "https://www.youtube.com/channel/UC0aJH6wW7-iBsB6tjQThU9A"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Marek Hilšer",
+        "bio": "41 let, Chomutov, lékař, pedagog",
+        "image": "marek-hilser.png",
+        "links": {
+            "account": "https://www.fio.cz/ib2/transparent?a=2500932815",
+            "ct": "http://www.ceskatelevize.cz/ct24/2337196-den-s-prezidentskym-kandidatem-marek-hilser",
+            "demagog": "https://demagog.cz/politici/436",
+            "dvtv": "https://video.aktualne.cz/dvtv/nase-spolecnost-neni-v-haji-je-dulezite-motivovat-lidi-aby-n/r~05aa800cf15711e7a4500cc47ab5f122/",
+            "facebook": "https://www.facebook.com/MarekNaHrad",
+            "instagram": "https://www.instagram.com/marek.hilser/",
+            "interview24": "http://www.ceskatelevize.cz/porady/10095426857-interview-ct24/217411058041128/",
+            "prezident21": "https://www.prezident21.cz/candidates/585944959868db1510fb6096",
+            "twitter": "https://twitter.com/MarekHilser",
+            "web": "http://www.mareknahrad.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Marek_Hil%C5%A1er",
+            "youtube": "https://www.youtube.com/channel/UCAIkDC1AvpEc9o3q7hshHjw"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Jiří Drahoš",
+        "bio": "68 let, Český Těšín, vědec - chemik, bývalý předseda Akademie věd",
+        "image": "jiri-drahos.png",
+        "links": {
+            "account": "https://www.kb.cz/cs/transparentni-ucty/101421867-drahos-jiri/detail-uctu-1154337090257.shtml",
+            "ct": "http://www.ceskatelevize.cz/ct24/2330227-den-s-prezidentskym-kandidatem-jiri-drahos",
+            "demagog": "https://demagog.cz/politici/433",
+            "dvtv": "https://video.aktualne.cz/dvtv/zeman-pohrda-volici-i-ostatnimi-kandidaty-ovcacek-hraje-roli/r~c8b3cfe8efb011e78337ac1f6b220ee8/",
+            "facebook": "https://www.facebook.com/drahosjiri/",
+            "instagram": "",
+            "interview24": "http://www.ceskatelevize.cz/porady/10095426857-interview-ct24/217411058041205/",
+            "prezident21": "https://www.prezident21.cz/candidates/585af49bdaa8e2d20c8a4f26",
+            "twitter": "https://twitter.com/jiridrahos1",
+            "web": "https://www.jiridrahos.cz/",
+            "wiki": "https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_Draho%C5%A1",
+            "youtube": ""
+        }
+    }
+]
