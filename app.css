@@ -37,6 +37,8 @@ a:hover {
 
 .c__image-wrapper {
     position: relative;
+    text-align: center;
+    max-width: 100% !important;
 }
 
 .c__image-wrapper:after {
@@ -47,6 +49,16 @@ a:hover {
     font-size: 3em;
     font-weight: bold;
     color: #d0d0d0;
+}
+
+.c__image {
+    width: 70%;
+}
+
+@media (min-width: 40rem) {
+    .c__image {
+        width: inherit;
+    }
 }
 
 .c__links {
