@@ -55,18 +55,18 @@ fetch('./data/candidates.json')
         candidates.forEach(candidate => {
             let tplEl = document.importNode(candidatesTpl.content, true);
 
-            tplEl.querySelector('.js-name').textContent = candidate.name;
-            tplEl.querySelector('.js-degree').textContent = candidate.degree;
-            tplEl.querySelector('.js-bio').textContent = candidate.bio;
-            tplEl.querySelector('.js-nominated-by').textContent = candidate.nominatedBy;
-            tplEl.querySelector('.js-affiliation').textContent = candidate.affiliation;
-            tplEl.querySelector('.js-image').src = `./img/${candidate.image}`;
-            tplEl.querySelector('.js-image').alt = candidate.name;
-            tplEl.querySelector('.js-id').dataset.id = candidate.id;
+            tplEl.querySelector('.js-c-name').textContent = candidate.name;
+            tplEl.querySelector('.js-c-degree').textContent = candidate.degree;
+            tplEl.querySelector('.js-c-bio').textContent = candidate.bio;
+            tplEl.querySelector('.js-c-nominated-by').textContent = candidate.nominatedBy;
+            tplEl.querySelector('.js-c-affiliation').textContent = candidate.affiliation;
+            tplEl.querySelector('.js-c-image').src = `./img/${candidate.image}`;
+            tplEl.querySelector('.js-c-image').alt = candidate.name;
+            tplEl.querySelector('.js-c-id').dataset.id = candidate.id;
 
             LINK_TYPES.forEach(type => {
                 let linkEl = generateLinkEl(candidate.links[type], type);
-                tplEl.querySelector(`.js-link-${type}`).appendChild(linkEl);
+                tplEl.querySelector(`.js-c-link-${type}`).appendChild(linkEl);
             });
 
             candidatesEl.appendChild(tplEl);
@@ -85,11 +85,11 @@ fetch('./data/debates.json')
         debates.forEach(debate => {
             let tplEl = document.importNode(debatesTpl.content, true);
 
-            tplEl.querySelector('.js-title').textContent = debate.title;
-            tplEl.querySelector('.js-date').textContent = debate.date;
-            tplEl.querySelector('.js-duration').textContent = debate.duration;
-            tplEl.querySelector('.js-url').textContent = debate.url;
-            tplEl.querySelector('.js-url').href = debate.url;
+            tplEl.querySelector('.js-d-title').textContent = debate.title;
+            tplEl.querySelector('.js-d-date').textContent = debate.date;
+            tplEl.querySelector('.js-d-duration').textContent = debate.duration;
+            tplEl.querySelector('.js-d-url').textContent = debate.url;
+            tplEl.querySelector('.js-d-url').href = debate.url;
 
             debatesEl.appendChild(tplEl);
         });
