@@ -33,6 +33,42 @@ a:hover {
     text-align: center;
 }
 
+/* Stands for section */
+.s {
+    margin-bottom: 4rem;
+}
+
+.s__title {
+    display: inline-block;
+    margin-right: 0.25em;
+}
+
+.s__title--active {
+    font-weight: bold;
+}
+
+/* Stands for debate */
+.d {
+    max-width: 100% !important;
+}
+
+@media (min-width: 40rem) {
+    .d {
+        max-width: calc(100% / 3) !important;
+    }
+}
+
+.d__list-item {
+    margin-bottom: 0.25em;
+}
+
+.d__link-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* Stands for candidate */
 .c {
     border-bottom: 1px solid #d0d0d0;
     margin-top: 4rem;

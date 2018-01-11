@@ -16,10 +16,6 @@ const URL_TRANSFORMATIONS = {
     web: /([a-z0-9-]*\.cz)/i,
 };
 
-let candidates = [];
-let tpl = document.querySelector('.tpl-candidates');
-let candidatesEl = document.querySelector('.js-candidates');
-
 let generateLinkEl = (url, type) => {
     let el;
 
@@ -48,14 +44,16 @@ let generateLinkText = (url, type) => {
 };
 
 // Fetch candidates
-fetch('./candidates.json')
+fetch('./data/candidates.json')
     .then(response => response.json())
     .then(json => {
-        candidates = json;
+        let candidates = json;
+        let candidatesTpl = document.querySelector('.tpl-candidates');
+        let candidatesEl = document.querySelector('.js-candidates');
 
         // Render candidates
         candidates.forEach(candidate => {
-            let tplEl = document.importNode(tpl.content, true);
+            let tplEl = document.importNode(candidatesTpl.content, true);
 
             tplEl.querySelector('.js-name').textContent = candidate.name;
             tplEl.querySelector('.js-degree').textContent = candidate.degree;
@@ -72,5 +70,27 @@ fetch('./candidates.json')
             });
 
             candidatesEl.appendChild(tplEl);
+        });
+    });
+
+// Fetch debates
+fetch('./data/debates.json')
+    .then(response => response.json())
+    .then(json => {
+        let debates = json;
+        let debatesTpl = document.querySelector('.tpl-debates');
+        let debatesEl = document.querySelector('.js-debates');
+
+        // Render candidates
+        debates.forEach(debate => {
+            let tplEl = document.importNode(debatesTpl.content, true);
+
+            tplEl.querySelector('.js-title').textContent = debate.title;
+            tplEl.querySelector('.js-date').textContent = debate.date;
+            tplEl.querySelector('.js-duration').textContent = debate.duration;
+            tplEl.querySelector('.js-url').textContent = debate.url;
+            tplEl.querySelector('.js-url').href = debate.url;
+
+            debatesEl.appendChild(tplEl);
         });
     });

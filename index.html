@@ -30,11 +30,52 @@
     <h1>Volba prezidenta České republiky 2018</h1>
 </header>
 
-<main class="container js-candidates"></main>
+<main class="container">
+
+    <section class="s" id="kandidati">
+        <h2 class="s__title s__title--active">
+            Kandidáti
+        </h2>
+        <h2 class="s__title">
+            <a href="#debaty">Debaty</a>
+        </h2>
+        <div class="js-candidates"></div>
+    </section>
+
+    <section class="s" id="debaty">
+        <h2 class="s__title">
+            <a href="#kandidati">Kandidáti</a>
+        </h2>
+        <h2 class="s__title s__title--active">
+            Debaty
+        </h2>
+        <div class="row js-debates" style="flex-wrap: wrap;"></div>
+    </section>
+
+</main>
 
 <footer class="container footer">
     Zdroj obrázků kandidátů: <a href="http://www.ceskatelevize.cz/ct24/specialy/2315662-volba-prezidenta-2018" target="_blank">http://www.ceskatelevize.cz/ct24/specialy/2315662-volba-prezidenta-2018</a>
 </footer>
+
+<template class="tpl-debates">
+    <div class="d column">
+        <ul>
+            <li class="d__list-item">
+                <strong class="js-title"></strong>
+            </li>
+            <li class="d__list-item d__link-wrapper">
+                <a href="" class="js-url" target="_blank"></a>
+            </li>
+            <li class="d__list-item">
+                <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+                <span class="js-date"></span>
+                <i class="fa fa-fw fa-clock-o" aria-hidden="true"></i>
+                <span class="js-duration"></span>
+            </li>
+        </ul>
+    </div>
+</template>
 
 <template class="tpl-candidates">
     <div class="c row">
