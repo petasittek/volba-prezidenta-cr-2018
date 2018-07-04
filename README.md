@@ -11,4 +11,4 @@ Every candidate profile includes:
  - Prezident 21 profile
  - DVTV interview
  - ČT24 interview
- - "A day with" video
+ - "One day with" video
