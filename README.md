@@ -10,5 +10,5 @@ Every candidate profile includes:
  - Demagog.cz profile
  - Prezident 21 profile
  - DVTV interview
- - Interview ČT24
- - "A day with candidate" video
+ - ČT24 interview
+ - "A day with" video
